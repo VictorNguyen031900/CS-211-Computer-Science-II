@@ -1,0 +1,46 @@
+Script started on Thu 02 May 2019 08:04:36 PM PDT
+]0;nguye481@empress:~/cs211/HW5[?1034h[nguye481@empress HW5]$ g++ -std=c++11 HW5-p1.cpp dStack.cpp
+]0;nguye481@empress:~/cs211/HW5[nguye481@empress HW5]$ ./a.out
+Enter a string: While(a==b){a++;
+Missing/Extra } !
+It is not properly balanced!
+Do you want to continue! Y/N: Y
+Enter a string: [A*(B+2)-{(3/C+(E-F))+[(E*3)-4]}]
+It is properly balanced!
+Do you want to continue! Y/N: Y
+Enter a string: if(a<(b*c)))
+Missing/Extra ( !
+It is not properly balanced!
+Do you want to continue! Y/N: y
+Enter a string: {3+4+5+6-7]
+Missing/Extra } !
+Missing/Extra [ !
+It is not properly balanced!
+Do you want to continue! Y/N: y
+Enter a string: [A*(E+2)-((G*3+(E-B))+[(E*3)-4]}]
+Missing/Extra { !
+Missing/Extra ) !
+It is not properly balanced!
+Do you want to continue! Y/N: y
+Enter a string: A+B+C
+It is properly balanced!
+Do you want to continue! Y/N: y
+Enter a string: (a+b+c*(d-2]))
+Missing/Extra [ !
+It is not properly balanced!
+Do you want to continue! Y/N: y
+Enter a string: [e-f)
+Missing/Extra ( !
+Missing/Extra ] !
+It is not properly balanced!
+Do you want to continue! Y/N: y
+Enter a string: ▪ [[()()])
+Missing/Extra ( !
+Missing/Extra ] !
+It is not properly balanced!
+Do you want to continue! Y/N: n
+Destroying stack.
+]0;nguye481@empress:~/cs211/HW5[nguye481@empress HW5]$ exit
+exit
+
+Script done on Thu 02 May 2019 08:06:06 PM PDT

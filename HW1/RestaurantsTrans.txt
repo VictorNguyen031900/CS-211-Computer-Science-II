@@ -1,0 +1,88 @@
+AddListing LaPizzeria 4356NobelDr SanDiego CA 92130 italian www.pizerria.com
+AddListing Civico 8765RegentsRd SanDiego CA 92101 italian www.civico.com
+AddListing OnBorder 101DoveSt SanDiego CA 92129 mexican www.border.com
+AddListing Ortega 3465RegentsRd SanDiego CA 92130 mexican www.ortegarestaurant.com
+AddListing ThePatio 6GenesseeRd SanDiego CA 92129 american www.thepatio.com
+AddListing Season23 908BrooksAve SanDiego CA 92101 american www.season23.com
+AddListing Cucina 1245ViaLaGitano Poway CA 93064 italian www.lacucina.com
+AddListing ElCantina 10876PowayRd Poway CA 93064 mexican www.cantina.com
+AddListing Joe's 125BridleRd Poway CA 93064 american www.joes.com
+AddListing OlivioRistorante 4320CaminoDr Carlsbad CA 92008 italian www.olivio.com
+AddListing MariaRistorante 6534SpringburstDr Carlsbad CA 92008 italian www.mariaristorante.com
+AddListing Agave 8764CreekViewBlvd Carlsbad CA 92009 mexican www.agave.com
+AddListing Barrio 5Broadway Carlsbad CA 92010 mexican www.barrio.com
+AddListing Seaside 5432DelSur Carlsbad CA 92009 american www.seaside.com
+AddListing TheHarbor 324CaminoSouth Carlsbad CA 92009 american www.theharbor.com
+DisplayAll
+Rate ElCentro 5
+Rate LaPizzeria 4
+Rate LaPizzeria 4.5
+Rate LaPizzeria 4.5
+Rate LaPizzeria 5
+Rate LaPizzeria 4
+Rate Civico 5
+Rate Civico 5
+Rate Civico 5
+Rate Civico 5
+Rate Civico 5
+Rate Civico 5
+Rate Civico 5
+Rate Civico 5
+Rate Civico 5
+Rate Cucina 3
+Rate Cucina 3
+Rate Cucina 3.5
+Rate Cucina 3.5
+Rate MariaRistorante 2
+Rate MariaRistorante 3
+Rate MariaRistorante 4
+Rate OlivioRistorante 4
+Rate OlivioRistorante 3
+Rate OlivioRistorante 4
+Rate OlivioRistorante 4.5
+Rate OlivioRistorante 5
+Rate OlivioRistorante 4
+Rate OnBorder 5
+Rate OnBorder 4.5
+Rate Ortega 3
+Rate ElCantina 4
+Rate ElCantina 5
+Rate Barrio 2
+Rate ThePatio 4
+Rate ThePatio 5
+Rate ThePatio 4
+Rate ThePatio 3
+Rate ThePatio 4
+Rate ThePatio 4
+Rate ThePatio 5
+Rate ThePatio 5
+Rate ThePatio 5
+Rate ThePatio 3
+Rate ThePatio 4
+Rate ThePatio 5
+Rate Joe's 2
+Rate Joe's 3
+Rate Season23 4
+Rate TheHarbor 5
+Rate TheHarbor 4
+Rate TheHarbor 4
+Rate TheHarbor 4
+Rate TheHarbor 5
+Rate TheHarbor 6
+Rate Agave 1
+Rate Agave 0
+Rate Agave 4
+RemoveListing Barrio
+RemoveListing Seaside
+RemoveListing BuffaloWings
+DisplayAll
+FindByName BuffaloWings
+FindByName Agave
+FindByName Ortega
+FindByName Ristorante
+FindByCriteria italian SanDiego
+FindByCriteria american Carlsbad
+FindByCriteria chinese Carlsbad
+FindTopRated Poway
+FindTopRated SanDiego
+FindTopRated Escondido

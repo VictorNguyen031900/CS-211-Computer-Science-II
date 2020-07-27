@@ -1,0 +1,166 @@
+Script started on Fri 15 Feb 2019 06:13:12 PM PST
+]0;nguye481@empress:~/cs211/HW1[?1034h[nguye481@empress HW1]$ g++ homework1-Restaurant.cpp
+]0;nguye481@empress:~/cs211/HW1[nguye481@empress HW1]$ ,[K./a.out
+Restaurant          City         Type       Rating  Reviewers
+---------------------------------------------------------------------
+LaPizzeria          SanDiego     italian    0.00    0                
+Civico              SanDiego     italian    0.00    0                
+OnBorder            SanDiego     mexican    0.00    0                
+Ortega              SanDiego     mexican    0.00    0                
+ThePatio            SanDiego     american   0.00    0                
+Season23            SanDiego     american   0.00    0                
+Cucina              Poway        italian    0.00    0                
+ElCantina           Poway        mexican    0.00    0                
+Joe's               Poway        american   0.00    0                
+OlivioRistorante    Carlsbad     italian    0.00    0                
+MariaRistorante     Carlsbad     italian    0.00    0                
+Agave               Carlsbad     mexican    0.00    0                
+Barrio              Carlsbad     mexican    0.00    0                
+Seaside             Carlsbad     american   0.00    0                
+TheHarbor           Carlsbad     american   0.00    0                
+
+Rate ElCentro 5.00
+Rate LaPizzeria 4.00
+Rate LaPizzeria 4.50
+Rate LaPizzeria 4.50
+Rate LaPizzeria 5.00
+Rate LaPizzeria 4.00
+Rate Civico 5.00
+Rate Civico 5.00
+Rate Civico 5.00
+Rate Civico 5.00
+Rate Civico 5.00
+Rate Civico 5.00
+Rate Civico 5.00
+Rate Civico 5.00
+Rate Civico 5.00
+Rate Cucina 3.00
+Rate Cucina 3.00
+Rate Cucina 3.50
+Rate Cucina 3.50
+Rate MariaRistorante 2.00
+Rate MariaRistorante 3.00
+Rate MariaRistorante 4.00
+Rate OlivioRistorante 4.00
+Rate OlivioRistorante 3.00
+Rate OlivioRistorante 4.00
+Rate OlivioRistorante 4.50
+Rate OlivioRistorante 5.00
+Rate OlivioRistorante 4.00
+Rate OnBorder 5.00
+Rate OnBorder 4.50
+Rate Ortega 3.00
+Rate ElCantina 4.00
+Rate ElCantina 5.00
+Rate Barrio 2.00
+Rate ThePatio 4.00
+Rate ThePatio 5.00
+Rate ThePatio 4.00
+Rate ThePatio 3.00
+Rate ThePatio 4.00
+Rate ThePatio 4.00
+Rate ThePatio 5.00
+Rate ThePatio 5.00
+Rate ThePatio 5.00
+Rate ThePatio 3.00
+Rate ThePatio 4.00
+Rate ThePatio 5.00
+Rate Joe's 2.00
+Rate Joe's 3.00
+Rate Season23 4.00
+Rate TheHarbor 5.00
+Rate TheHarbor 4.00
+Rate TheHarbor 4.00
+Rate TheHarbor 4.00
+Rate TheHarbor 5.00
+Rate TheHarbor 6.00
+Rating should be a number 1 to 5
+Rate Agave 1.00
+Rate Agave 0.00
+Rating should be a number 1 to 5
+Rate Agave 4.00
+RemoveListing Barrio
+RemoveListing Seaside
+RemoveListing BuffaloWings
+No such restaurant exists
+
+Restaurant          City         Type       Rating  Reviewers
+---------------------------------------------------------------------
+LaPizzeria          SanDiego     italian    4.40    5                
+Civico              SanDiego     italian    5.00    9                
+OnBorder            SanDiego     mexican    4.75    2                
+Ortega              SanDiego     mexican    3.00    1                
+ThePatio            SanDiego     american   4.25    12               
+Season23            SanDiego     american   4.00    1                
+Cucina              Poway        italian    3.25    4                
+ElCantina           Poway        mexican    4.50    2                
+Joe's               Poway        american   2.50    2                
+OlivioRistorante    Carlsbad     italian    4.08    6                
+MariaRistorante     Carlsbad     italian    3.00    3                
+Agave               Carlsbad     mexican    2.50    2                
+TheHarbor           Carlsbad     american   4.40    5                
+
+FindByName BuffaloWings
+No such restaurant exists
+
+FindByName Agave
+Agave, mexican
+8764CreekViewBlvd, Carlsbad CA 92009
+www.agave.com
+rating: 2.50 (2 reviews)
+
+FindByName Ortega
+Ortega, mexican
+3465RegentsRd, SanDiego CA 92130
+www.ortegarestaurant.com
+rating: 3.00 (1 reviews)
+
+FindByName Ristorante
+OlivioRistorante, italian
+4320CaminoDr, Carlsbad CA 92008
+www.olivio.com
+rating: 4.08 (6 reviews)
+
+MariaRistorante, italian
+6534SpringburstDr, Carlsbad CA 92008
+www.mariaristorante.com
+rating: 3.00 (3 reviews)
+
+FindByCriteria italian SanDiego
+LaPizzeria
+4356NobelDr, SanDiego CA 92130
+www.pizerria.com
+rating: 4.40 (5 reviews)
+
+Civico
+8765RegentsRd, SanDiego CA 92101
+www.civico.com
+rating: 5.00 (9 reviews)
+
+FindByCriteria american Carlsbad
+TheHarbor
+324CaminoSouth, Carlsbad CA 92009
+www.theharbor.com
+rating: 4.40 (5 reviews)
+
+FindByCriteria chinese Carlsbad
+No such restaurant exists
+
+FindTopRated Poway
+ElCantina, mexican
+10876PowayRd, Poway CA 93064
+www.cantina.com
+rating: 4.50 (2 reviews)
+
+FindTopRated SanDiego
+Civico, italian
+8765RegentsRd, SanDiego CA 92101
+www.civico.com
+rating: 5.00 (9 reviews)
+
+FindTopRated Escondido
+Cannot find the top rated restaurant in Escondido
+]0;nguye481@empress:~/cs211/HW1[nguye481@empress HW1]$ exit
+exit
+
+Script done on Fri 15 Feb 2019 06:13:28 PM PST

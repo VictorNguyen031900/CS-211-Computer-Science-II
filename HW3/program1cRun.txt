@@ -1,0 +1,11 @@
+Script started on Thu 28 Mar 2019 11:03:44 AM PDT
+]0;nguye481@empress:~/cs211/HW3[?1034h[nguye481@empress HW3]$ g++ -std=c++11 program1c-VN.cpp
+]0;nguye481@empress:~/cs211/HW3[nguye481@empress HW3]$ ./a.out
+Array A with its matching index -1
+Array B with its matching index 7
+Array C with its matching index 2
+Array D with its matching index 5
+]0;nguye481@empress:~/cs211/HW3[nguye481@empress HW3]$ exit
+exit
+
+Script done on Thu 28 Mar 2019 11:04:07 AM PDT

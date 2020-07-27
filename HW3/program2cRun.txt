@@ -1,0 +1,30 @@
+Script started on Thu 28 Mar 2019 11:04:20 AM PDT
+]0;nguye481@empress:~/cs211/HW3[?1034h[nguye481@empress HW3]$ g++ -std=c++11 program2c-VN.cpp
+]0;nguye481@empress:~/cs211/HW3[nguye481@empress HW3]$ ./a.out
+
+Enter a word to find permutations: IS
+IS, SI
+There is 2 permutations for string "IS"
+
+]0;nguye481@empress:~/cs211/HW3[nguye481@empress HW3]$ ./a.out
+
+Enter a word to find permutations: SUN
+SUN, SNU, USN, UNS, NUS, NSU
+There is 6 permutations for string "SUN"
+
+]0;nguye481@empress:~/cs211/HW3[nguye481@empress HW3]$ ./a.out
+
+Enter a word to find permutations: LIFE
+LIFE, LIEF, LFIE, LFEI, LEFI, LEIF, ILFE, ILEF, IFLE, IFEL, IEFL, IELF, FILE, FIEL, FLIE, FLEI, FELI, FEIL, EIFL, EILF, EFIL, EFLI, ELFI, ELIF
+There is 24 permutations for string "LIFE"
+
+]0;nguye481@empress:~/cs211/HW3[nguye481@empress HW3]$ ./a.out
+
+Enter a word to find permutations: HOTEL
+HOTEL, HOTLE, HOETL, HOELT, HOLET, HOLTE, HTOEL, HTOLE, HTEOL, HTELO, HTLEO, HTLOE, HETOL, HETLO, HEOTL, HEOLT, HELOT, HELTO, HLTEO, HLTOE, HLETO, HLEOT, HLOET, HLOTE, OHTEL, OHTLE, OHETL, OHELT, OHLET, OHLTE, OTHEL, OTHLE, OTEHL, OTELH, OTLEH, OTLHE, OETHL, OETLH, OEHTL, OEHLT, OELHT, OELTH, OLTEH, OLTHE, OLETH, OLEHT, OLHET, OLHTE, TOHEL, TOHLE, TOEHL, TOELH, TOLEH, TOLHE, THOEL, THOLE, THEOL, THELO, THLEO, THLOE, TEHOL, TEHLO, TEOHL, TEOLH, TELOH, TELHO, TLHEO, TLHOE, TLEHO, TLEOH, TLOEH, TLOHE, EOTHL, EOTLH, EOHTL, EOHLT, EOLHT, EOLTH, ETOHL, ETOLH, ETHOL, ETHLO, ETLHO, ETLOH, EHTOL, EHTLO, EHOTL, EHOLT, EHLOT, EHLTO, ELTHO, ELTOH, ELHTO, ELHOT, ELOHT, ELOTH, LOTEH, LOTHE, LOETH, LOEHT, LOHET, LOHTE, LTOEH, LTOHE, LTEOH, LTEHO, LTHEO, LTHOE, LETOH, LETHO, LEOTH, LEOHT, LEHOT, LEHTO, LHTEO, LHTOE, LHETO, LHEOT, LHOET, LHOTE
+There is 120 permutations for string "HOTEL"
+
+]0;nguye481@empress:~/cs211/HW3[nguye481@empress HW3]$ exit
+exit
+
+Script done on Thu 28 Mar 2019 11:05:01 AM PDT

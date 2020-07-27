@@ -1,0 +1,165 @@
+Script started on Tue 05 Mar 2019 07:59:36 PM PST
+]0;nguye481@empress:~/cs211/HW2[?1034h[nguye481@empress HW2]$ g++ HW2.cpp RestaurantReservations.cpp Restaurant.cpp Reservation.cpp
+]0;nguye481@empress:~/cs211/HW2[nguye481@empress HW2]$ ./a.out
+CreateNewRestaurant LaPizzeria 4356NobelDr SanDiego italian 10
+CreateNewRestaurant Civico 8765RegentsRd SanDiego italian 20
+CreateNewRestaurant OnBorder 101DoveSt SanDiego mexican 20
+CreateNewRestaurant Ortega 3465RegentsRd SanDiego mexican 30
+CreateNewRestaurant OlivioRistorante 4320CaminoDr Carlsbad italian 15
+CreateNewRestaurant MariaRistorante 6534SpringburstDr Carlsbad italian 10
+CreateNewRestaurant Agave 8764CreekViewBlvd Carlsbad mexican 30
+CreateNewRestaurant Barrio 5Broadway Carlsbad mexican 30
+PrintAllRestaurants
+Restaurant           Address, City                     Type            Capacity
+-------------------------------------------------------------------------------
+LaPizzeria           4356NobelDr, SanDiego             italian         10      
+Civico               8765RegentsRd, SanDiego           italian         20      
+OnBorder             101DoveSt, SanDiego               mexican         20      
+Ortega               3465RegentsRd, SanDiego           mexican         30      
+OlivioRistorante     4320CaminoDr, Carlsbad            italian         15      
+MariaRistorante      6534SpringburstDr, Carlsbad       italian         10      
+Agave                8764CreekViewBlvd, Carlsbad       mexican         30      
+Barrio               5Broadway, Carlsbad               mexican         30      
+FindTable SanDiego italian 10 5
+You may reserve a table for 10 at 5 pm at:
+LaPizzeria
+Civico
+MakeReservation LaPizzeria John 858-334-3334 10 5
+Reservation made!
+FindTable SanDiego italian 15 5
+You may reserve a table for 15 at 5 pm at:
+Civico
+MakeReservation Civico Jamie 316-324-1234 15 5
+Reservation made!
+FindTable SanDiego italian 10 5
+No restaurant can accommodate such a group at this time, check another time.
+FindTable SanDiego italian 10 6
+You may reserve a table for 10 at 6 pm at:
+LaPizzeria
+Civico
+MakeReservation LaPizzeria Andrea 513-984-7878 10 6
+Reservation made!
+FindTable SanDiego italian 5 7
+You may reserve a table for 5 at 7 pm at:
+LaPizzeria
+Civico
+MakeReservation LaPizzeria Amy 838-234-3111 5 7
+Reservation made!
+FindTable SanDiego mexican 10 8
+You may reserve a table for 10 at 8 pm at:
+OnBorder
+Ortega
+MakeReservation OnBorder Bill 222-532-3148 10 8
+Reservation made!
+FindTable SanDiego mexican 10 8
+You may reserve a table for 10 at 8 pm at:
+OnBorder
+Ortega
+MakeReservation OnBorder Andre 325-632-9148 10 8
+Reservation made!
+FindTable SanDiego mexican 2 8
+You may reserve a table for 2 at 8 pm at:
+Ortega
+MakeReservation Ortega Kathy 617-682-5148 2 8
+Reservation made!
+FindTable Carlsbad mexican 4 8
+You may reserve a table for 4 at 8 pm at:
+Agave
+Barrio
+MakeReservation Barrio Jenna 633-782-9848 4 8
+Reservation made!
+FindTable Carlsbad mexican 20 7
+You may reserve a table for 20 at 7 pm at:
+Agave
+Barrio
+MakeReservation Barrio Davina 315-380-9848 20 7
+Reservation made!
+MakeReservation Barrio Pete 215-380-9845 6 7
+Reservation made!
+FindTable Carlsbad mexican 5 7
+You may reserve a table for 5 at 7 pm at:
+Agave
+MakeReservation Agave Joe 399-300-1848 5 7
+Reservation made!
+FindTable Carlsbad italian 5 6
+You may reserve a table for 5 at 6 pm at:
+OlivioRistorante
+MariaRistorante
+MakeReservation OlivioRistorante Courtney 229-456-1865 5 6
+Reservation made!
+MakeReservation OlivioRistorante Patrick 665-102-0876 5 6
+Reservation made!
+MakeReservation MariaRistorante Nancy 218-396-2349 5 6
+Reservation made!
+FindTableAtRestaurant LaPizzeria 2
+You can reserve a table for 2 at LaPizzeria at 7:00 pm, 8:00 pm
+MakeReservation LaPizzeria Carolyn 613-084-7898 2 7
+Reservation made!
+FindTableAtRestaurant LaPizzeria 3
+You can reserve a table for 3 at LaPizzeria at 7:00 pm, 8:00 pm
+MakeReservation LaPizzeria Edward 313-284-0087 3 7
+Reservation made!
+FindTableAtRestaurant LaPizzeria 3
+You can reserve a table for 3 at LaPizzeria at 8:00 pm
+MakeReservation LaPizzeria Michael 215-487-1082 3 8
+Reservation made!
+FindTableAtRestaurant Agave 26
+You can reserve a table for 26 at Agave at 5:00 pm, 6:00 pm, 8:00 pm
+MakeReservation Agave Joe 615-233-1065 26 5
+Reservation made!
+FindTableAtRestaurant LaPizzeria 8
+LaPizzeria does not have such availability.
+CancelReservation LaPizzeria 260(Canceled Function)
+Canceled function stated by professor!
+CancelReservation LaPizzeria 250(Canceled Function)
+Canceled function stated by professor!
+FindTableAtRestaurant LaPizzeria 8
+LaPizzeria does not have such availability.
+MakeReservation LaPizzeria Ellen 867-580-2047 8 8
+No available seats at your time.
+CancelReservation Civico 110(Canceled Function)
+Canceled function stated by professor!
+FindTableAtRestaurant Civico 20
+You can reserve a table for 20 at Civico at 6:00 pm, 7:00 pm, 8:00 pm
+MakeReservation Civico Jared 337-324-2047 20 5
+No available seats at your time.
+PrintRestaurantReservations LaPizzeria
+Reservation   Contact   Phone         Group   Time
+--------------------------------------------------
+100           John      858-334-3334  10      5     
+120           Andrea    513-984-7878  10      6     
+130           Amy       838-234-3111  5       7     
+240           Carolyn   613-084-7898  2       7     
+250           Edward    313-284-0087  3       7     
+260           Michael   215-487-1082  3       8     
+PrintRestaurantReservations Civico
+Reservation   Contact   Phone         Group   Time
+--------------------------------------------------
+110           Jamie     316-324-1234  15      5     
+PrintRestaurantReservations Ortega
+Reservation   Contact   Phone         Group   Time
+--------------------------------------------------
+160           Kathy     617-682-5148  2       8     
+PrintRestaurantReservations OlivioRistorante
+Reservation   Contact   Phone         Group   Time
+--------------------------------------------------
+210           Courtney  229-456-1865  5       6     
+220           Patrick   665-102-0876  5       6     
+PrintRestaurantReservations Agave
+Reservation   Contact   Phone         Group   Time
+--------------------------------------------------
+200           Joe       399-300-1848  5       7     
+270           Joe       615-233-1065  26      5     
+PrintRestaurantReservations Barrio
+Reservation   Contact   Phone         Group   Time
+--------------------------------------------------
+170           Jenna     633-782-9848  4       8     
+180           Davina    315-380-9848  20      7     
+190           Pete      215-380-9845  6       7     
+PrintRestaurantReservations Season23
+Reservation   Contact   Phone         Group   Time
+--------------------------------------------------
+]0;nguye481@empress:~/cs211/HW2[nguye481@empress HW2]$ exit
+exit
+
+Script done on Tue 05 Mar 2019 08:00:07 PM PST
